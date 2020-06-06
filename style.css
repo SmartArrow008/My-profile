@@ -1,0 +1,67 @@
+h1{
+    color:blue;
+    padding-left:30px;
+
+}
+
+/*{
+  border:solid;
+}*/
+.header{
+  background-color: black;
+  display:flex;
+  justify-content: space-between;
+}
+.grid{
+  display:flex;
+  flex-wrap: wrap ;
+  justify-content: space-between;
+}
+.footer{
+  background-color: gray;
+  display:flex;
+  justify-content: flex-end;
+
+}
+p,h1{
+  text-align: left;
+
+}
+body{
+  background-color: yellow;
+}
+.home{
+  margin-right: 30 px;
+}
+.home a{
+  margin-left:20px;
+}
+.about{
+  margin-right: 30 px;
+}
+.about a{
+  margin-left:20px;
+}
+a:link{
+  color:white;
+}
+a:visited{
+  color:red;
+}
+.item{
+  position: relative;
+}
+.item p{
+  position: absolute;
+  top:50%;
+  bottom:50%;
+  transform:translate(-50%,-50%);
+  opacity:0;
+}
+.item:hover p{
+  opacity:1;
+}
+.item:hover img{
+  opacity:0.33;
+}
+
